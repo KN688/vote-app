@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-03T08:10:15.976Z",
+  "url": "http://localhost:3000",
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "passRate": 100
+  },
+  "results": [
+    {
+      "test": "首页加载",
+      "status": "PASS",
+      "detail": "标题: 聚餐投票, 内容正常显示"
+    },
+    {
+      "test": "导航功能",
+      "status": "PASS",
+      "detail": "4 个导航链接"
+    },
+    {
+      "test": "创建投票页面",
+      "status": "PASS",
+      "detail": "表单元素: 2/2"
+    },
+    {
+      "test": "投票列表",
+      "status": "PASS",
+      "detail": "内容存在, 3 个按钮"
+    },
+    {
+      "test": "个人中心",
+      "status": "PASS",
+      "detail": "内容正常显示"
+    },
+    {
+      "test": "响应式布局",
+      "status": "PASS",
+      "detail": "支持移动端视图"
+    },
+    {
+      "test": "控制台检查",
+      "status": "PASS",
+      "detail": "0 错误, 0 警告"
+    },
+    {
+      "test": "底部导航栏",
+      "status": "PASS",
+      "detail": "正常显示"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

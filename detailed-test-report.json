@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-02-03T08:08:08.747Z",
+  "summary": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1,
+    "warned": 0
+  },
+  "results": [
+    {
+      "test": "首页显示",
+      "status": "PASS",
+      "detail": "标题: 聚餐投票, 内容: 有"
+    },
+    {
+      "test": "导航功能",
+      "status": "PASS",
+      "detail": "5 个链接"
+    },
+    {
+      "test": "创建投票",
+      "status": "FAIL",
+      "detail": "SyntaxError: Failed to execute 'querySelector' on 'Document': 'a[href=\"/create\"], button:contains(\"创建\"), .create-btn' is not a valid selector."
+    },
+    {
+      "test": "投票列表",
+      "status": "PASS",
+      "detail": "内容存在: true"
+    },
+    {
+      "test": "个人中心",
+      "status": "PASS",
+      "detail": "页面可访问"
+    },
+    {
+      "test": "控制台检查",
+      "status": "PASS",
+      "detail": "0 错误, 0 警告"
+    }
+  ]
+}

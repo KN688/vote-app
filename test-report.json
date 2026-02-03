@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-03T08:01:53.202Z",
+  "summary": {
+    "total": 8,
+    "passed": 7,
+    "failed": 0,
+    "warned": 1,
+    "passRate": 88
+  },
+  "results": [
+    {
+      "test": "首页加载",
+      "status": "PASS",
+      "detail": "聚餐投票"
+    },
+    {
+      "test": "导航栏",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "创建投票页面",
+      "status": "PASS",
+      "detail": "未找到标题"
+    },
+    {
+      "test": "个人中心",
+      "status": "PASS",
+      "detail": "未找到标题"
+    },
+    {
+      "test": "投票列表",
+      "status": "PASS",
+      "detail": "0 个元素"
+    },
+    {
+      "test": "控制台错误",
+      "status": "PASS",
+      "detail": "无错误"
+    },
+    {
+      "test": "筛选功能",
+      "status": "WARN",
+      "detail": "SyntaxError: Failed to execute 'querySelector' on 'Document': 'button:has-text(\"进行中\")' is not a valid selector."
+    },
+    {
+      "test": "响应式布局",
+      "status": "PASS",
+      "detail": "支持移动端"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js'
 
-// 从环境变量获取 Supabase 配置
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || ''
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || ''
+// Supabase 配置
+const supabaseUrl = 'https://umdbxzejzxlmtxskdacw.supabase.co'
+const supabaseAnonKey = 'sb_publishable_Xd-E0EA4tC0_Je4vazzd5Q_V6Nkyso2'
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
